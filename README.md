@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sina%20Paslar-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sina-paslar/)
 [![GitHub](https://img.shields.io/badge/GitHub-sina--paslar-black?style=flat-square&logo=github)](https://github.com/Sina-Paslar)
-[![Email](https://img.shields.io/badge/Email-sina83paslar%40gmail.com-red?style=flat-square&logo=gmail)](mailto:sina83paslar@gmail.com)
+[![Email](https://img.shields.io/badge/Email-sinapaslar%40gmail.com-red?style=flat-square&logo=gmail)](mailto:sinapaslar@gmail.com)
 
 </div>
 
