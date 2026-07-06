@@ -146,6 +146,6 @@ I like building software that is practical, understandable, and useful. My focus
 ## Connect With Me
 
 * **LinkedIn:** [linkedin.com/in/sina-paslar](https://www.linkedin.com/in/sina-paslar/)
-* **GitHub:** [github.com/sina83paslar](https://github.com/sina83paslar)
+* **GitHub:** [github.com/sina83paslar](https://github.com/Sina-Paslar)
 
 ---
