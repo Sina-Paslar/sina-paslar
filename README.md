@@ -5,7 +5,7 @@
 Computer Programming student at **Algonquin College** with a focus on full-stack development, Python, databases, accessibility, AI-assisted systems, and product development. I enjoy building practical software, leading project teams, and turning ideas into usable applications.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sina%20Paslar-blue?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/sina-paslar/)
-[![GitHub](https://img.shields.io/badge/GitHub-sina83paslar-black?style=flat-square\&logo=github)](https://github.com/sina83paslar)
+[![GitHub](https://img.shields.io/badge/GitHub-sina83paslar-black?style=flat-square\&logo=github)](https://github.com/Sina-Paslar)
 
 ---
 
