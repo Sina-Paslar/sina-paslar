@@ -117,11 +117,17 @@ A product-focused project involving entrepreneurship, market research, business 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sina-paslar&show_icons=true&theme=github_dark&hide_border=true" alt="Sina's GitHub Stats" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=sina-paslar&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" 
+    alt="Sina's GitHub Stats" 
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sina-paslar&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sina-paslar&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" 
+    alt="Top Languages" 
+  />
 </p>
 ---
 
