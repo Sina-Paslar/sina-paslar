@@ -96,19 +96,14 @@ class SinaPaslar:
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=sina-paslar&show_icons=true&theme=github_dark&hide_border=true"
-    alt="Sina's GitHub Stats"
-  />
-</p>
-
----
-
 > Clean structure. Practical features. Real user value.
 ```
+
+**Update (2026-07-06, post-merge):** the GitHub Stats section was removed
+after merge — the public `github-readme-stats.vercel.app` demo instance
+returned `503 DEPLOYMENT_PAUSED` for all usernames (an upstream outage, not
+specific to this repo). Rather than depend on a community-run free instance
+that can go down, the stats widget was dropped entirely.
 
 ## Notes on trade-offs
 

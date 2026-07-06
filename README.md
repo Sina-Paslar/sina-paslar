@@ -51,15 +51,4 @@ class SinaPaslar:
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=sina-paslar&show_icons=true&theme=github_dark&hide_border=true"
-    alt="Sina's GitHub Stats"
-  />
-</p>
-
----
-
 > Clean structure. Practical features. Real user value.
