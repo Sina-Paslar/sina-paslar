@@ -116,10 +116,13 @@ A product-focused project involving entrepreneurship, market research, business 
 
 ## GitHub Stats
 
-![Sina's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sina83paslar\&show_icons=true\&theme=default)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sina-paslar&show_icons=true&theme=github_dark&hide_border=true" alt="Sina's GitHub Stats" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sina83paslar\&layout=compact\&theme=default)
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sina-paslar&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+</p>
 ---
 
 ## Core Strengths
