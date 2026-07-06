@@ -1,11 +1,10 @@
-# Hi, I'm Sina Paslar
+# Hi, I'm Sina Paslar 👋
 
 **Junior Software Developer | Full-Stack & Python Developer | Entrepreneur**
 
-Computer Programming student at **Algonquin College** with a focus on full-stack development, Python, databases, accessibility, AI-assisted systems, and product development. I enjoy building practical software, leading project teams, and turning ideas into usable applications.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sina%20Paslar-blue?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/sina-paslar/)
-[![GitHub](https://img.shields.io/badge/GitHub-sina83paslar-black?style=flat-square\&logo=github)](https://github.com/Sina-Paslar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sina%20Paslar-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sina-paslar/)
+[![GitHub](https://img.shields.io/badge/GitHub-sina83paslar-black?style=flat-square&logo=github)](https://github.com/Sina-Paslar)
+[![Email](https://img.shields.io/badge/Email-sina83paslar%40gmail.com-red?style=flat-square&logo=gmail)](mailto:sina83paslar@gmail.com)
 
 ---
 
@@ -24,12 +23,6 @@ class SinaPaslar:
             "AI + Graph-Based Applications",
             "Entrepreneurship"
         ]
-        self.current_projects = [
-            "Auspicious App",
-            "Hippodamus",
-            "Course Similarity Graph",
-            "GLIP"
-        ]
 
     def working_on(self):
         return "Building practical software with strong UX, clean architecture, and real business value."
@@ -37,124 +30,36 @@ class SinaPaslar:
 
 ---
 
-## Featured Projects
+## Currently Building
 
-### Auspicious App — Accessibility & Learning Platform
-
-A client-facing web application focused on improving accessibility, usability, and learning support for entrepreneurs and learners.
-
-* Managed team coordination, client communication, project scope, and feature planning.
-* Worked on accessibility features including contrast settings, font/text customization, motion controls, and personalized user preferences.
-* Used modern full-stack technologies including **Next.js**, **TypeScript**, **Tailwind CSS**, **Supabase**, and **PostHog**.
-
-**Languages & Technologies**: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Supabase, PostHog, Vitest, React Testing Library.
-**Key areas:** Full-stack development, accessibility, project leadership, client collaboration, testing.
-
----
-
-### Hippodamus — Construction Safety & Project Workflow Platform
-
-A software project focused on construction safety workflows, stakeholder coordination, and practical safety-management processes.
-
-* Managed team direction and helped organize development tasks across the project.
-* Contributed to product planning, workflow analysis, and feature breakdowns for safety-related use cases.
-* Focused on turning real stakeholder problems into clear software requirements and user stories.
-
-**Languages & Technologies**: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Supabase.
-**Key areas:** Product design, workflow analysis, team leadership, safety-tech, stakeholder communication.
-
----
-
-### Course Similarity Graph — AI + Graph Database System
-
-A graph-based system for comparing college and university courses across institutions using extracted course topics and relationships.
-
-* Supervised developers and helped coordinate the ingestion and extraction workflow.
-* Built a course-similarity model using **Neo4j**, graph relationships, Python, and LLM-based topic extraction.
-* Designed graph queries to compare courses by shared topics, institutions, programs, and relationships.
-
-**Languages & Technologies**: Python, Cypher, Neo4j, Gemini API, Pydantic, Docker, JSON
-**Key areas:** Python, Neo4j, GraphRAG, LLM extraction, database modeling, team supervision.
-
----
-
-### GLIP — Startup / Product Development Project
-
-A product-focused project involving entrepreneurship, market research, business planning, and early-stage software development.
-
-* Worked on defining the problem, target users, value proposition, and product direction.
-* Applied startup-development skills including market research, stakeholder communication, and go-to-market thinking.
-* Connected technical development decisions with real user and business needs.
-
-**Key areas:** Entrepreneurship, product strategy, market research, MVP planning.
+- **Auspicious App** — accessibility-focused learning platform (Next.js, TypeScript, Supabase)
+- **Hippodamus** — construction safety & workflow platform (Next.js, TypeScript, Supabase)
+- **Course Similarity Graph** — course-comparison engine using graph relationships and LLM topic extraction (Python, Neo4j, Gemini API)
+- **GLIP** — early-stage startup/product project (market research, MVP planning)
 
 ---
 
 ## Tech Stack
 
-| Area             | Technologies                                                                     |
-| ---------------- | -------------------------------------------------------------------------------- |
-| **Languages**    | Python, Java, C, Go, JavaScript, TypeScript, COBOL                               |
-| **Frontend**     | React, Next.js, Flutter, HTML, CSS, Tailwind CSS                                 |
-| **Backend**      | Python, Java, REST APIs, Supabase                                                |
-| **Databases**    | PostgreSQL, MySQL, MongoDB, Oracle, Neo4j                                        |
-| **Testing**      | Pytest, Vitest, React Testing Library                                            |
-| **Tools**        | Git, GitHub, Docker, Bash, Linux, VS Code                                        |
-| **Platforms**    | Windows, macOS, Linux, Vercel, Supabase                                          |
-| **Other Skills** | Agile planning, team leadership, project coordination, stakeholder communication |
+**Languages:** ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![COBOL](https://img.shields.io/badge/-COBOL-005CA5?style=flat-square)
 
----
+**Frontend:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-## Current Focus
+**Backend & Databases:** ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Neo4j](https://img.shields.io/badge/-Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-* Building stronger full-stack applications with **Next.js**, **TypeScript**, and **Supabase**
-* Improving backend and database skills with **Python**, **PostgreSQL**, **Oracle**, and **Neo4j**
-* Learning more about **AI-assisted applications**, **GraphRAG**, and course-similarity systems
-* Developing stronger leadership, project-management, and entrepreneurship skills
+**Tools:** ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 ---
 
 ## GitHub Stats
 
 <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=sina-paslar&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" 
-    alt="Sina's GitHub Stats" 
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=sina-paslar&show_icons=true&theme=github_dark&hide_border=true"
+    alt="Sina's GitHub Stats"
   />
 </p>
 
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sina-paslar&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" 
-    alt="Top Languages" 
-  />
-</p>
 ---
-
-## Core Strengths
-
-| Strength                   | Description                                                                               |
-| -------------------------- | ----------------------------------------------------------------------------------------- |
-| **Full-Stack Development** | Able to work across frontend, backend, databases, and deployment workflows.               |
-| **Python Development**     | Comfortable building structured Python applications, data workflows, and testing systems. |
-| **Database Design**        | Experience with relational databases, graph databases, SQL, and data modeling.            |
-| **Team Leadership**        | Managed and supervised developers across academic and client-based projects.              |
-| **Entrepreneurship**       | Experience with startup planning, product thinking, market research, and MVP development. |
-| **Communication**          | Comfortable working with clients, teammates, instructors, and stakeholders.               |
-
----
-
-## Project Philosophy
-
-I like building software that is practical, understandable, and useful. My focus is not only writing code, but also understanding the real problem, organizing the work, communicating clearly with the team, and delivering something that can actually help users.
 
 > Clean structure. Practical features. Real user value.
-
----
-
-## Connect With Me
-
-* **LinkedIn:** [linkedin.com/in/sina-paslar](https://www.linkedin.com/in/sina-paslar/)
-* **GitHub:** [github.com/sina83paslar](https://github.com/Sina-Paslar)
-
----
