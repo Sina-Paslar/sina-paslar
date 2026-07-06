@@ -1,39 +1,63 @@
-<div align="center">
+# "Currently Building" Section Expansion — Design
 
-# Hi, I'm Sina Paslar 👋
+Date: 2026-07-06
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=520&lines=Full-Stack+Developer;Python+Developer;Database+%26+Graph+Systems;Entrepreneur)](https://github.com/Sina-Paslar)
+## Goal
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sina%20Paslar-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sina-paslar/)
-[![GitHub](https://img.shields.io/badge/GitHub-sina--paslar-black?style=flat-square&logo=github)](https://github.com/Sina-Paslar)
-[![Email](https://img.shields.io/badge/Email-sina83paslar%40gmail.com-red?style=flat-square&logo=gmail)](mailto:sina83paslar@gmail.com)
+Expand the README's "Currently Building" section from one-line bullets back
+into full per-project write-ups ("that is what represents me"), and add
+motion via animated tech-stack icons per project. Builds on top of the
+visually-polished README from
+`2026-07-06-github-profile-readme-visual-polish-design.md`.
 
-</div>
+## Decisions (agreed with user)
 
----
+- **Detail level:** full sections per project — heading + subtitle,
+  description paragraph, 3 bullet points, tech-icon row, "Key areas" line.
+  This restores the original (pre-trim) project write-ups verbatim in prose,
+  with the plain-text "Languages & Technologies" line replaced by an
+  animated icon row.
+- **Motion:** animated tech-stack icon badges via the `readmecodegen.com`
+  Social Icon Generator API (`/api/social-icon?name=X&animation=pulse&size=40`),
+  one icon row per project (not per main Tech Stack grid — that section is
+  explicitly out of scope for this change).
+- **GLIP stays text-only** — no icon row, matching its original non-technical
+  nature (no "Languages & Technologies" line existed for it before either).
 
-## About Me
+## Reliability verification (done during brainstorming, not assumed)
 
-```python
-class SinaPaslar:
-    def __init__(self):
-        self.role = "Junior Software Developer"
-        self.education = "Computer Programming - Algonquin College"
-        self.focus = [
-            "Full-Stack Development",
-            "Python Development",
-            "Database Systems",
-            "Accessibility Features",
-            "AI + Graph-Based Applications",
-            "Entrepreneurship"
-        ]
+Live-tested `https://www.readmecodegen.com/api/social-icon` before adopting
+it, since a similar-sounding free image service (`github-readme-stats`)
+broke earlier today:
 
-    def working_on(self):
-        return "Building practical software with strong UX, clean architecture, and real business value."
-```
+- Returns `200 OK`, `Content-Type: image/svg+xml`, with `Cache-Control:
+  public, max-age=31536000, immutable` (aggressively cached — good for
+  reliability).
+- The SVG body contains a self-contained `<style>` block with CSS
+  `@keyframes` (e.g. `pulse`) — the animation is baked into the SVG file
+  itself, not injected page CSS, so it survives GitHub's markdown
+  sanitizer the same way `readme-typing-svg` does.
+- Confirmed working slugs (HTTP 200): `python`, `typescript`, `javascript`,
+  `java`, `go`, `php`, `react`, `nextjs`, `tailwindcss`, `supabase`,
+  `postgresql`, `neo4j`, `mongodb`, `git`, `docker`, `vitest`, `posthog`,
+  `pydantic`, `json`, `testinglibrary`, `googlegemini`.
+- Confirmed **not** working (HTTP 404, all variants tried): `vscode` /
+  `vs-code` / `visualstudiocode` / `visual-studio-code` (user decided:
+  drop VS Code from any icon row rather than use a workaround), `cobol`
+  (expected — no COBOL icon exists anywhere, stays a shields.io text
+  badge elsewhere in the README, unaffected by this change), `cypher`
+  (Neo4j's query language — mentioned in the Course Similarity Graph
+  project's bullet text only, no icon).
 
----
+## File
 
+- Modify: `README.md` — only the "Currently Building" section changes.
+  No other section (header, About Me, Tech Stack, Contribution Activity,
+  closing quote) is touched.
+
+## Final "Currently Building" section content
+
+```markdown
 ## Currently Building
 
 ### Auspicious App — Accessibility & Learning Platform
@@ -111,58 +135,23 @@ A product-focused project involving entrepreneurship, market research, business 
 - Connected technical development decisions with real user and business needs.
 
 **Key areas:** Entrepreneurship, product strategy, market research, MVP planning.
+```
 
----
+## Where this fits in README.md
 
-## Tech Stack
+This replaces the current "Currently Building" section (`README.md` lines
+37-43: the heading plus four one-line bullets) in place, between the
+existing `---` after "About Me" (line 35) and the existing `---` before
+"Tech Stack" (line 44) — both of those surrounding dividers stay untouched.
+Within the replacement content itself, each project block ends with its own
+`---` divider *except* the last one (GLIP), so the new content flows
+straight into the untouched pre-existing `---` before "Tech Stack" without
+a duplicate divider.
 
-**Languages**
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="45" height="45" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="45" height="45" alt="Go" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="45" height="45" alt="PHP" />
-  <img src="https://img.shields.io/badge/COBOL-005CA5?style=for-the-badge" height="28" alt="COBOL" />
-</p>
+## Out of scope
 
-**Frontend**
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" height="45" alt="React" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="45" height="45" alt="Next.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45" height="45" alt="Tailwind CSS" />
-</p>
-
-**Backend & Databases**
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" width="45" height="45" alt="Supabase" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="PostgreSQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" width="45" height="45" alt="Neo4j" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="45" height="45" alt="MongoDB" />
-</p>
-
-**Tools**
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45" alt="VS Code" />
-</p>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sina-Paslar/sina-paslar/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sina-Paslar/sina-paslar/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Sina-Paslar/sina-paslar/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-> Clean structure. Practical features. Real user value.
+- The main "Tech Stack" section (DevIcon grid) is unchanged — not part of
+  this request.
+- No new icons for VS Code or Cypher (both confirmed unavailable in the
+  icon service; documented above rather than worked around).
+- No other README sections change.
