@@ -36,10 +36,81 @@ class SinaPaslar:
 
 ## Currently Building
 
-- **Auspicious App** — accessibility-focused learning platform (Next.js, TypeScript, Supabase)
-- **Hippodamus** — construction safety & workflow platform (Next.js, TypeScript, Supabase)
-- **Course Similarity Graph** — course-comparison engine using graph relationships and LLM topic extraction (Python, Neo4j, Gemini API)
-- **GLIP** — early-stage startup/product project (market research, MVP planning)
+### Auspicious App — Accessibility & Learning Platform
+
+A client-facing web application focused on improving accessibility, usability, and learning support for entrepreneurs and learners.
+
+- Managed team coordination, client communication, project scope, and feature planning.
+- Worked on accessibility features including contrast settings, font/text customization, motion controls, and personalized user preferences.
+- Used modern full-stack technologies including Next.js, TypeScript, Tailwind CSS, Supabase, and PostHog.
+
+<p>
+  <img src="https://www.readmecodegen.com/api/social-icon?name=typescript&animation=pulse&size=40" alt="TypeScript" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=javascript&animation=pulse&size=40" alt="JavaScript" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=react&animation=pulse&size=40" alt="React" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=nextjs&animation=pulse&size=40" alt="Next.js" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=tailwindcss&animation=pulse&size=40" alt="Tailwind CSS" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=supabase&animation=pulse&size=40" alt="Supabase" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=posthog&animation=pulse&size=40" alt="PostHog" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=vitest&animation=pulse&size=40" alt="Vitest" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=testinglibrary&animation=pulse&size=40" alt="React Testing Library" />
+</p>
+
+**Key areas:** Full-stack development, accessibility, project leadership, client collaboration, testing.
+
+---
+
+### Hippodamus — Construction Safety & Project Workflow Platform
+
+A software project focused on construction safety workflows, stakeholder coordination, and practical safety-management processes.
+
+- Managed team direction and helped organize development tasks across the project.
+- Contributed to product planning, workflow analysis, and feature breakdowns for safety-related use cases.
+- Focused on turning real stakeholder problems into clear software requirements and user stories.
+
+<p>
+  <img src="https://www.readmecodegen.com/api/social-icon?name=typescript&animation=pulse&size=40" alt="TypeScript" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=javascript&animation=pulse&size=40" alt="JavaScript" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=react&animation=pulse&size=40" alt="React" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=nextjs&animation=pulse&size=40" alt="Next.js" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=tailwindcss&animation=pulse&size=40" alt="Tailwind CSS" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=supabase&animation=pulse&size=40" alt="Supabase" />
+</p>
+
+**Key areas:** Product design, workflow analysis, team leadership, safety-tech, stakeholder communication.
+
+---
+
+### Course Similarity Graph — AI + Graph Database System
+
+A graph-based system for comparing college and university courses across institutions using extracted course topics and relationships.
+
+- Supervised developers and helped coordinate the ingestion and extraction workflow.
+- Built a course-similarity model using Neo4j, graph relationships, Python, and LLM-based topic extraction.
+- Designed graph queries to compare courses by shared topics, institutions, programs, and relationships.
+
+<p>
+  <img src="https://www.readmecodegen.com/api/social-icon?name=python&animation=pulse&size=40" alt="Python" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=neo4j&animation=pulse&size=40" alt="Neo4j" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=googlegemini&animation=pulse&size=40" alt="Gemini API" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=pydantic&animation=pulse&size=40" alt="Pydantic" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=docker&animation=pulse&size=40" alt="Docker" />
+  <img src="https://www.readmecodegen.com/api/social-icon?name=json&animation=pulse&size=40" alt="JSON" />
+</p>
+
+**Key areas:** Python, Neo4j, GraphRAG, LLM extraction, database modeling, team supervision.
+
+---
+
+### GLIP — Startup / Product Development Project
+
+A product-focused project involving entrepreneurship, market research, business planning, and early-stage software development.
+
+- Worked on defining the problem, target users, value proposition, and product direction.
+- Applied startup-development skills including market research, stakeholder communication, and go-to-market thinking.
+- Connected technical development decisions with real user and business needs.
+
+**Key areas:** Entrepreneurship, product strategy, market research, MVP planning.
 
 ---
 
