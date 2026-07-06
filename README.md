@@ -5,7 +5,7 @@
 Computer Programming student at **Algonquin College** with a focus on full-stack development, Python, databases, accessibility, AI-assisted systems, and product development. I enjoy building practical software, leading project teams, and turning ideas into usable applications.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sina%20Paslar-blue?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/sina-paslar/)
-[![GitHub](https://img.shields.io/badge/GitHub-sina83paslar-black?style=flat-square\&logo=github)](https://github.com/sina83paslar)
+[![GitHub](https://img.shields.io/badge/GitHub-sina83paslar-black?style=flat-square\&logo=github)](https://github.com/Sina-Paslar)
 
 ---
 
@@ -47,6 +47,7 @@ A client-facing web application focused on improving accessibility, usability, a
 * Worked on accessibility features including contrast settings, font/text customization, motion controls, and personalized user preferences.
 * Used modern full-stack technologies including **Next.js**, **TypeScript**, **Tailwind CSS**, **Supabase**, and **PostHog**.
 
+**Languages & Technologies**: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Supabase, PostHog, Vitest, React Testing Library.
 **Key areas:** Full-stack development, accessibility, project leadership, client collaboration, testing.
 
 ---
@@ -59,6 +60,7 @@ A software project focused on construction safety workflows, stakeholder coordin
 * Contributed to product planning, workflow analysis, and feature breakdowns for safety-related use cases.
 * Focused on turning real stakeholder problems into clear software requirements and user stories.
 
+**Languages & Technologies**: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Supabase.
 **Key areas:** Product design, workflow analysis, team leadership, safety-tech, stakeholder communication.
 
 ---
@@ -71,6 +73,7 @@ A graph-based system for comparing college and university courses across institu
 * Built a course-similarity model using **Neo4j**, graph relationships, Python, and LLM-based topic extraction.
 * Designed graph queries to compare courses by shared topics, institutions, programs, and relationships.
 
+**Languages & Technologies**: Python, Cypher, Neo4j, Gemini API, Pydantic, Docker, JSON
 **Key areas:** Python, Neo4j, GraphRAG, LLM extraction, database modeling, team supervision.
 
 ---
@@ -91,7 +94,7 @@ A product-focused project involving entrepreneurship, market research, business 
 
 | Area             | Technologies                                                                     |
 | ---------------- | -------------------------------------------------------------------------------- |
-| **Languages**    | Python, Java, C, Go, JavaScript, TypeScript                                      |
+| **Languages**    | Python, Java, C, Go, JavaScript, TypeScript, COBOL                               |
 | **Frontend**     | React, Next.js, Flutter, HTML, CSS, Tailwind CSS                                 |
 | **Backend**      | Python, Java, REST APIs, Supabase                                                |
 | **Databases**    | PostgreSQL, MySQL, MongoDB, Oracle, Neo4j                                        |
@@ -143,6 +146,6 @@ I like building software that is practical, understandable, and useful. My focus
 ## Connect With Me
 
 * **LinkedIn:** [linkedin.com/in/sina-paslar](https://www.linkedin.com/in/sina-paslar/)
-* **GitHub:** [github.com/sina83paslar](https://github.com/sina83paslar)
+* **GitHub:** [github.com/sina83paslar](https://github.com/Sina-Paslar)
 
 ---
